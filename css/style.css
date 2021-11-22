@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#navbar {
+    background-image: url(../img/estrellas.jpg);
+}
+
+#navbar a {
+    font-size: 24px;
+}
+
+#main {
+    background-color: #161616bd;
+    padding-top: 15px;
+}
+
+#main h2, h4{
+    color: #fff;
+}
+
+#main p, ul, li, details {
+    color: #8f8f8f;
+}
+
+#main li {
+    list-style-type: square;
+}
+
+td > img {
+    width: 100px;
+}

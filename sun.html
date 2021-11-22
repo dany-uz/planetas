@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planets-UZ</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body style="background-color: black;">
+
+    <!--NAVBAR-->
+    <header id="navbar" class="navbar navbar-expand-md navbar-dark bd-navbar">
+
+        <nav class="container-xxl flex-wrap flex-md-nowrap" aria-label="Main navigation">
+
+            <a class="navbar-brand" href="#">
+                <img src="img/logo2.png" alt="logo" width="125">
+            </a>
+
+            <button     class="navbar-toggler" 
+                        type="button" 
+                        data-bs-toggle="collapse" 
+                        data-bs-target="#navegacion-header"
+                        data-bs-controls="navegacion-header"
+                        aria-expanded="false"
+                        aria-label="Toogle navigation">
+                <span   class="navbar-toggler-icon"></span>
+            </button>
+
+        <div class="container-md"> 
+            <div class="collapse navbar-collapse" id="navegacion-header">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" 
+                            id="navbarDropdown" 
+                            role="button" 
+                            data-bs-toggle="dropdown" 
+                            aria-expanded="false">Sistema Solar</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="sun.html">El Sol</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="mercury.html">Mercurio</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="venus.html">Venus</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="earth.html">Tierra</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="mars.html">Marte</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="jupiter.html">Jupiter</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="saturn.html">Saturno</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="uranus.html">Urano</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="neptune.html">Neptuno</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="dwarf.html">Planetas Enanos</a>
+                    </li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--MAIN-->
+    <div id="main" class="container-lg">
+
+        <!--CONTENT-->
+        <div class="container-xxl order-1">
+
+            <div class="clearfix">
+                <h2 class="text-center">El Sol es nuestra estrella</h2>
+
+                <video  src="video/Sol.mp4"
+                        class="img-fluid col-sm-6 float-sm-end mb-3 ms-sm-3"
+                        id="sol"
+                        autoplay
+                        muted
+                        loop>
+                
+                </video>
+                
+                <p>
+                    El Sol es una estrella que se encuentra en la fase denominada secuencia principal, con un tipo espectral G2 y clase de luminosidad V, por tanto, también es denominada como enana amarilla.
+                </p>
+
+                <p>
+                    El Sol es la estrella más cercana a la Tierra y el mayor astro del Sistema Solar. Forma parte de la galaxia que llamamos Vía Láctea.
+                </p>
+                
+                <p>
+                    Las estrellas son los únicos cuerpos del Universo que emiten luz. El Sol, esa estrella cercana, está situado a unos 150 millones de kilómetros de la Tierra y es, con mucho, el objeto celeste más brillante que podemos ver.
+                </p>
+
+                <p>
+                    El Sol contiene más del 99,8% de toda la materia del Sistema Solar. De hecho, "casi todo" el Sistema Solar está en el Sol. Ejerce una fuerte atracción gravitatoria sobre los planetas y los hace girar a su alrededor. Junto con los asteroides, meteoroides, cometas y polvo forman el Sistema Solar.           
+                </p>
+
+                <p>
+                    Aquí van algunos datos del Sol:
+                </p>
+
+                <div class="row">
+                    <div class="col-12">
+                        <table class="table table-dark table-striped">
+                            <caption>Datos sacados de <a href="https://solarviews.com/span/data2.htm" target="_blank">https://solarviews.com/span/data2.htm</a></caption>
+                            <th>Datos Físicos</th>
+                            <th>Valor</th>
+                            <tr>
+                                <td>Vo</td>
+                                <td>-26,8</td>
+                            </tr>
+                            <tr>
+                                <td>Distancia (10³km)</td>
+                                <td>0</td>
+                            </tr>
+                            <tr>
+                                <td>Radio (km)</td>
+                                <td>695.000</td>
+                            </tr>
+                            <tr>
+                                <td>Masa (kg)</td>
+                                <td>1,989e+30</td>
+                            </tr>
+                            <tr>
+                                <td>Densidad (g/cm3)</td>
+                                <td>1,410</td>
+                            </tr>
+                            <tr>
+                                <td>V. Escape (km/s)</td>
+                                <td>618,02</td>
+                            </tr>
+                            <tr>
+                                <td>Albedo</td>
+                                <td>-</td>
+                            </tr>
+                            <details>
+                                <summary>Palabras Clave</summary>
+                                <p>Vo                   -> Magnitud visible del objeto en oposición.</p>
+                                <p>Distancia (10³km)    -> Distancia al Sol o al planeta central.</p>
+                                <p>Radio (km)           -> Radio.</p>
+                                <p>Masa (kg)            -> Masa.</p>
+                                <p>Densidad (g/cm3)     -> Densidad.</p>
+                                <p>V. Escape (km/s)     -> Velocidad de escape.</p>
+                                <p>Albedo               -> Albedo geométrico visual.</p>
+                            </details>
+                        </table>
+                    </div>
+                </div>
+
+                <p>
+                    Todo el Sistema Solar, incluido el Sol, gira alrededor del centro de la Vía Láctea, nuestra galaxia, situado a unos 25.800 años luz de distancia. Da una vuelta completa cada 225 millones de años. En nuestros tiempos se mueve hacia la constelación de Hércules a 19 Km./s.
+                </p>
+
+                <p>
+                    Nuestra estrella particular se formó hace unos 4.600 millones de años y tiene combustible para otros 5.000 millones más. Después, comenzará a hacerse más y más grande, hasta convertirse en una estrella gigante roja. Finalmente, se hundirá por su propio peso y se convertirá en una enana blanca, que puede tardar hasta un trillón de años en enfriarse.
+                </p>
+
+                <br>
+
+                <h4 class="text-center">¿Cómo se estudia el sol?</h4>
+
+                <p>
+                    Actualmente el Sol se estudia desde algunos satélites, como el Observatorio Heliosférico y Solar (SOHO), dotados de instrumentos que permiten apreciar aspectos que, hasta ahora, no se habían podido investigar.
+                </p>
+
+                <p>
+                    Además de la observación con telescopios convencionales, se utilizan:
+                </p>
+
+                <ul>
+                    <li>el coronógrafo, que analiza la corona solar</li>
+                    <li>el telescopio ultravioleta extremo, un instrumento capaz de detectar el campo magnético</li>
+                    <li>los radiotelescopios pueden detectar diversos tipos de radiación que resultan imperceptibles para el ojo humano.</li>
+                </ul>
+
+                <p>
+                    El 12 de agosto de 2018 la NASA lanzó al espacio la sonda Parker, destinada a investigar la corona del Sol, su campo magnético y el viento solar. Orbitará a unos 6,2 millones de kilómetros de la superficie solar, la fotósfera.
+                </p>
+
+                <br>
+
+                <h4 class="text-center">¿Cómo se produce la energía solar?</h4>
+
+                <p>
+                    El Sol es una inmensa esfera de plasma, un poco más grande y caliente que una estrella mediana. Produce una gran cantidad de energía electromagnética mediante procesos nucleares de fusión.
+                </p>
+
+                <p>
+                    Un 74% de la materia solar es Hidrógeno (H), otro 24% es Helio (He) y el restante 2% se reparte entre diversos elementos químicos entre los que destacan el Oxígeno (O), el Hierro (Fe) y el Níquel (Ni). Estos gases tienen un movimiento convectivo que transporta el calor y la energía hacia afuera. Este efecto de dinamo genera un potente campo magnético.
+                </p>
+
+                <p>
+                    El periodo de rotación de la superficie solar va desde los 25 días en el ecuador hasta los 36 días cerca de los polos. Más adentro parece que todo gira cada 27 días. Esta rotación diferente según la latitud provoca que las líneas del campo magnético se enrosquen con el tiempo, provocando la formación de manchas y las espectaculares protuberancias solares.
+                </p>
+
+                <br>
+
+                <h4 class="text-center">El Sol mantiene la vida y el clima en la Tierra</h4>
+
+                <p>
+                    Nuestra principal fuente de energía es el Sol, del que recibimos radiaciones, sobre todo, en forma de luz y calor. Los vegetales, a través de la fotosíntesis, aprovechan la luz solar para producir sus alimentos que, a la vez, alimentan a todos los seres vivos. Su energía también determina el clima de la Tierra.
+                </p>
+
+                <p>
+                    La mayoría de las fuentes de energía que utilizamos también provienen del Sol, aunque sea de forma indirecta. Por ejemplo, los combustibles fósiles conservan bajo tierra la energía solar capturada por los vegetales y las algas hace millones de años mediante fotosíntesis. La energía hidráulica usa el peso del agua que cayó de las nubes porque el Sol la evaporó. La eólica aprovecha los vientos causados por las diferencias de temperatura en la atmósfera. Y la energía capturada mediante paneles solares... ¿de dónde proviene?
+                </p>
+
+                <p>
+                    Como nuestro planeta gira sobre su eje una vez cada 24 horas, parece que el Sol sale por el este, se mueve por el cielo y se oculta por el oeste. Su presencia o ausencia hace que sea de día o de noche.
+                </p>
+
+                <p>
+                    Finalmente, unos consejos: el Sol es peligroso si no se toman precauciones. La exposición solar excesiva puede causar desde una insolación hasta cáncer de piel. Por otra parte, mirar directamente al Sol puede provocar lesiones en los ojos, incluso ceguera. Para observarlo, por ejemplo, durante un eclipse de Sol, hay que usar filtros o cristales especiales. Las gafas de sol y los remedios caseros no sirven. Si se usan prismáticos o telescopios, los filtros solares deben ir colocados en la parte frontal y nunca en el ocular.
+                </p>
+
+            </div>
+        
+        </div>
+
+    </div>
+</body>
+</html>
